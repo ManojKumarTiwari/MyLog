@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "371184552100",
+    "firebase_url": "https://mylog-db5ae.firebaseio.com",
+    "project_id": "mylog-db5ae",
+    "storage_bucket": "mylog-db5ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371184552100:android:886ce0e4e6a13be3",
+        "android_client_info": {
+          "package_name": "com.theinfinitecoder.mylog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371184552100-6a4oib8oru7fudk4g2hu71mdv3qirot6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theinfinitecoder.mylog",
+            "certificate_hash": "f594fd2219ef56bd844b2e9296a10ab80cf173a9"
+          }
+        },
+        {
+          "client_id": "371184552100-jgbp08rptr40ot6j6lkbas4q5bummu91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBHQdKWQ1MBqa39OM-cQ4TheAqOEj-e8I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371184552100-jgbp08rptr40ot6j6lkbas4q5bummu91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
