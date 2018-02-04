@@ -9,7 +9,6 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
-    private FirebaseAuth mAuth;
     private FirebaseUser currentUser;
 
     @Override
@@ -26,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
         currentUser = FirebaseAuth.getInstance().getCurrentUser();
         if(currentUser == null){
 
-            Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-            startActivity(intent);
+            Intent loginIntent = new Intent(MainActivity.this, LoginActivity.class);
+            startActivity(loginIntent);
             finish();
         }
     }
