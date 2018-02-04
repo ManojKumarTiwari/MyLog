@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_bg"
+    android:background="@mipmap/login_bg"
     tools:context="com.theinfinitecoder.mylog.LoginActivity">
 
     <TextView
@@ -16,7 +16,7 @@
         android:layout_marginTop="40dp"
         android:text="@string/login_welcome_to_tx"
         android:textAlignment="center"
-        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textColor="@android:color/background_light"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -81,8 +81,8 @@
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/colorAccent"
         android:text="Login"
-        android:textColor="@android:color/background_light"
         android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_password_et" />
@@ -95,8 +95,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="132dp"
         android:text="Need a new account?"
-        android:textColor="@color/colorAccent"
         android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
